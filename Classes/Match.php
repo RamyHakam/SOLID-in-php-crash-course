@@ -10,18 +10,23 @@ namespace  Classes;
 
 class Match
 {
-   private  $player;
 
-    public function __construct( Player $player)
+
+    private  $attack;
+    private  $defense;
+    private  $keeper;
+
+    public function __construct()
     {
-        $this->player=$player;
+        $this->attack= new Attack();
+        $this->defense= new Defense();
+        $this->keeper= new Keeper();
 
 
     }
 
     public  function  start(){
         echo "start play";
-        $this->player->play();
     }
 
 
