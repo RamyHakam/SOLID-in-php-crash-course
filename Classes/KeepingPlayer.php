@@ -10,14 +10,20 @@ namespace Classes;
 
 
 use Interfaces\PlayerInterface;
+use Players\ElhadaryChild;
+use Players\ElhadaryFather;
 
 class KeepingPlayer implements  PlayerInterface
 {
 
     public function play()
     {
-        // TODO: Implement play() method.
-        echo "Goal Keeping";
+        //$keeper= new ElhadaryChild();
+       $keeper=new ElhadaryFather();
+        echo $keeper->Keeping();
+
+
+
     }
 
 
