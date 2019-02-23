@@ -15,7 +15,7 @@ class ElhadaryChild extends ElhadaryFather
 
    public function Keeping()
    {
-       return true;
+       return "Child Good Keeping";
    }
 
 

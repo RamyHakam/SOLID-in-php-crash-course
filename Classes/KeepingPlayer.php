@@ -18,8 +18,8 @@ class KeepingPlayer implements  PlayerInterface
 
     public function play()
     {
-        //$keeper= new ElhadaryChild();
-       $keeper=new ElhadaryFather();
+        $keeper= new ElhadaryChild();
+     //  $keeper=new ElhadaryFather();
         echo $keeper->Keeping();
 
 
