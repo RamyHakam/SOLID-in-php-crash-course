@@ -9,23 +9,15 @@
 namespace Classes;
 
 
-use Interfaces\PlayerInterface;
+use Interfaces\AttackInterface;
 
-class AttackPlayer  implements  PlayerInterface
+class AttackPlayer  implements  AttackInterface
 {
 
     public function Attack()
     {
         // TODO: Implement Attack() method.
         echo "Attack";
-    }
-    public function Defense()
-    {
-        // TODO: Implement Defense() method.
-    }
-    public function Keeping()
-    {
-        // TODO: Implement Keeping() method.
     }
 
 }
