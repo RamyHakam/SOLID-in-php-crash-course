@@ -13,9 +13,18 @@ use Interfaces\PlayerInterface;
 
 class defencePlayer implements  PlayerInterface
 {
-    public function play()
+
+    public function Defense()
     {
-        echo "defence";
+        echo "defense";
+    }
+    public function Keeping()
+    {
+        // TODO: Implement Keeping() method.
+    }
+    public function Attack()
+    {
+        // TODO: Implement Attack() method.
     }
 
 

@@ -16,14 +16,21 @@ use Players\ElhadaryFather;
 class KeepingPlayer implements  PlayerInterface
 {
 
-    public function play()
+    public function Keeping()
     {
+        // TODO: Implement Keeping() method.
         $keeper= new ElhadaryChild();
-     //  $keeper=new ElhadaryFather();
         echo $keeper->Keeping();
+    }
 
+    public function Attack()
+    {
+        // TODO: Implement Attack() method.
+    }
 
-
+    public function Defense()
+    {
+        // TODO: Implement Defense() method.
     }
 
 
