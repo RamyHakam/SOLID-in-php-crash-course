@@ -10,9 +10,10 @@ namespace Classes;
 
 
 use Interfaces\KeepingInterface;
+use Interfaces\PlayerInterface;
 use Players\ElhadaryChild;
 
-class KeepingPlayer implements  KeepingInterface
+class KeepingPlayer implements  PlayerInterface, KeepingInterface
 {
 
     public function Keeping()
@@ -20,6 +21,12 @@ class KeepingPlayer implements  KeepingInterface
         // TODO: Implement Keeping() method.
         $keeper= new ElhadaryChild();
         echo $keeper->Keeping();
+    }
+
+    public function play()
+    {
+        // TODO: Implement play() method.
+        $this->Keeping();
     }
 
 }

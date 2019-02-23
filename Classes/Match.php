@@ -25,21 +25,12 @@ class Match
 
         foreach ($this->playerList as $player){
 
-            if($player instanceof  AttackPlayer){
-                $player->Attack();
-            }
-            elseif ($player instanceof defencePlayer){
-                //$player->Defense();
-                $player->Keeping();
-            }
-//            elseif($player instanceof  KeepingPlayer){
-//                $player->Keeping();
-//            }
-
-
+            $player->play();
             echo "\n";
 
         }
+
+
     }
 
 
